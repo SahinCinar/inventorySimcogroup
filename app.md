@@ -20,6 +20,7 @@ reserves the right to change the license of future releases.
 
 ### Links
 
+https://inventory-simcogroup-2-hv4i9klfs-sahins-projects-47256dd2.vercel.app/
 https://github.com/SahinCinar/inventorySimcogroup
 https://inventorysimcogroup.onrender.com/
 Email:admin@hotmail.com
