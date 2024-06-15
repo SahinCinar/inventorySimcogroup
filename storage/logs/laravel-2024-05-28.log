@@ -1,0 +1,377 @@
+[2024-05-28 17:49:27] local.ERROR: Class "Collective\Html\HtmlServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Collective\\Html\\HtmlServiceProvider\" not found at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Collective\\\\Html...')
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2024-05-28 17:49:27] local.ERROR: Class "Collective\Html\HtmlServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Collective\\Html\\HtmlServiceProvider\" not found at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Collective\\\\Html...')
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2024-05-28 17:49:30] local.ERROR: Class "Collective\Html\HtmlServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Collective\\Html\\HtmlServiceProvider\" not found at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Collective\\\\Html...')
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2024-05-28 17:50:27] local.ERROR: Class "Collective\Html\HtmlServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Collective\\Html\\HtmlServiceProvider\" not found at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Collective\\\\Html...')
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2024-05-28 17:50:27] local.ERROR: Class "Collective\Html\HtmlServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Collective\\Html\\HtmlServiceProvider\" not found at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Collective\\\\Html...')
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2024-05-28 17:51:27] local.ERROR: Class "Collective\Html\HtmlServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Collective\\Html\\HtmlServiceProvider\" not found at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Collective\\\\Html...')
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2024-05-28 17:51:27] local.ERROR: Class "Collective\Html\HtmlServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Collective\\Html\\HtmlServiceProvider\" not found at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Collective\\\\Html...')
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2024-05-28 17:52:05] local.ERROR: Class "Maatwebsite\Excel\ExcelServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Maatwebsite\\Excel\\ExcelServiceProvider\" not found at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Maatwebsite\\\\Exc...')
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2024-05-28 17:52:27] local.ERROR: Class "Maatwebsite\Excel\ExcelServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Maatwebsite\\Excel\\ExcelServiceProvider\" not found at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Maatwebsite\\\\Exc...')
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2024-05-28 17:52:27] local.ERROR: Class "Maatwebsite\Excel\ExcelServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Maatwebsite\\Excel\\ExcelServiceProvider\" not found at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Maatwebsite\\\\Exc...')
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2024-05-28 17:52:27] local.ERROR: Class "Maatwebsite\Excel\ExcelServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Maatwebsite\\Excel\\ExcelServiceProvider\" not found at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Maatwebsite\\\\Exc...')
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2024-05-28 17:52:40] local.ERROR: Call to undefined method Illuminate\Foundation\Application::share() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Foundation\\Application::share() at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php:154)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(58): Maatwebsite\\Excel\\ExcelServiceProvider->bindClasses()
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(682): Maatwebsite\\Excel\\ExcelServiceProvider->register()
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Maatwebsite\\Excel\\ExcelServiceProvider))
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2024-05-28 17:53:27] local.ERROR: Call to undefined method Illuminate\Foundation\Application::share() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Foundation\\Application::share() at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php:154)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(58): Maatwebsite\\Excel\\ExcelServiceProvider->bindClasses()
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(682): Maatwebsite\\Excel\\ExcelServiceProvider->register()
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Maatwebsite\\Excel\\ExcelServiceProvider))
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2024-05-28 17:53:27] local.ERROR: Call to undefined method Illuminate\Foundation\Application::share() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Foundation\\Application::share() at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php:154)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(58): Maatwebsite\\Excel\\ExcelServiceProvider->bindClasses()
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(682): Maatwebsite\\Excel\\ExcelServiceProvider->register()
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Maatwebsite\\Excel\\ExcelServiceProvider))
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2024-05-28 17:54:27] local.ERROR: Call to undefined method Illuminate\Foundation\Application::share() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Foundation\\Application::share() at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php:154)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(58): Maatwebsite\\Excel\\ExcelServiceProvider->bindClasses()
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(682): Maatwebsite\\Excel\\ExcelServiceProvider->register()
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Maatwebsite\\Excel\\ExcelServiceProvider))
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2024-05-28 17:54:27] local.ERROR: Call to undefined method Illuminate\Foundation\Application::share() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Foundation\\Application::share() at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php:154)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(58): Maatwebsite\\Excel\\ExcelServiceProvider->bindClasses()
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(682): Maatwebsite\\Excel\\ExcelServiceProvider->register()
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Maatwebsite\\Excel\\ExcelServiceProvider))
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2024-05-28 17:54:35] local.ERROR: Call to undefined method Illuminate\Foundation\Application::share() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Foundation\\Application::share() at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php:154)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(58): Maatwebsite\\Excel\\ExcelServiceProvider->bindClasses()
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(682): Maatwebsite\\Excel\\ExcelServiceProvider->register()
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Maatwebsite\\Excel\\ExcelServiceProvider))
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2024-05-28 17:55:15] local.ERROR: include(C:\Users\Sahin\Desktop\InventoryMS-Laravel\vendor\composer/../maatwebsite/excel/src/Maatwebsite/Excel/ExcelServiceProvider.php): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): include(C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\composer/../maatwebsite/excel/src/Maatwebsite/Excel/ExcelServiceProvider.php): Failed to open stream: No such file or directory at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\composer\\ClassLoader.php:576)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\composer\\ClassLoader.php(576): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'include(C:\\\\User...', 'C:\\\\Users\\\\Sahin\\\\...', 576)
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\composer\\ClassLoader.php(576): include()
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\composer\\ClassLoader.php(427): Composer\\Autoload\\{closure}('C:\\\\Users\\\\Sahin\\\\...')
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(745): Composer\\Autoload\\ClassLoader->loadClass('Maatwebsite\\\\Exc...')
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(679): Illuminate\\Foundation\\Application->resolveProvider('Maatwebsite\\\\Exc...')
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register('Maatwebsite\\\\Exc...')
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#7 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#8 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#9 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#10 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#11 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 {main}
+"} 
+[2024-05-28 17:55:25] local.ERROR: Call to undefined method Illuminate\Foundation\Application::share() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Foundation\\Application::share() at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php:154)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(58): Maatwebsite\\Excel\\ExcelServiceProvider->bindClasses()
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(682): Maatwebsite\\Excel\\ExcelServiceProvider->register()
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Maatwebsite\\Excel\\ExcelServiceProvider))
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2024-05-28 17:55:27] local.ERROR: Call to undefined method Illuminate\Foundation\Application::share() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Foundation\\Application::share() at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php:154)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(58): Maatwebsite\\Excel\\ExcelServiceProvider->bindClasses()
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(682): Maatwebsite\\Excel\\ExcelServiceProvider->register()
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Maatwebsite\\Excel\\ExcelServiceProvider))
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2024-05-28 17:55:27] local.ERROR: Call to undefined method Illuminate\Foundation\Application::share() {"exception":"[object] (Error(code: 0): Call to undefined method Illuminate\\Foundation\\Application::share() at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php:154)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(58): Maatwebsite\\Excel\\ExcelServiceProvider->bindClasses()
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(682): Maatwebsite\\Excel\\ExcelServiceProvider->register()
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Maatwebsite\\Excel\\ExcelServiceProvider))
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 {main}
+"} 
+[2024-05-28 17:56:27] local.ERROR: Illegal offset type in unset {"exception":"[object] (TypeError(code: 0): Illegal offset type in unset at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:1322)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(251): Illuminate\\Container\\Container->dropStaleInstances(Object(Closure))
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(388): Illuminate\\Container\\Container->bind(Object(Closure), NULL, true)
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(154): Illuminate\\Container\\Container->singleton(Object(Closure))
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(58): Maatwebsite\\Excel\\ExcelServiceProvider->bindClasses()
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(682): Maatwebsite\\Excel\\ExcelServiceProvider->register()
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Maatwebsite\\Excel\\ExcelServiceProvider))
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#7 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#8 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#9 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#10 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#11 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 {main}
+"} 
+[2024-05-28 17:56:27] local.ERROR: Illegal offset type in unset {"exception":"[object] (TypeError(code: 0): Illegal offset type in unset at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:1322)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(251): Illuminate\\Container\\Container->dropStaleInstances(Object(Closure))
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(388): Illuminate\\Container\\Container->bind(Object(Closure), NULL, true)
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(154): Illuminate\\Container\\Container->singleton(Object(Closure))
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(58): Maatwebsite\\Excel\\ExcelServiceProvider->bindClasses()
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(682): Maatwebsite\\Excel\\ExcelServiceProvider->register()
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Maatwebsite\\Excel\\ExcelServiceProvider))
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#7 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#8 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#9 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#10 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#11 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 {main}
+"} 
+[2024-05-28 17:57:27] local.ERROR: Illegal offset type in unset {"exception":"[object] (TypeError(code: 0): Illegal offset type in unset at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:1322)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(251): Illuminate\\Container\\Container->dropStaleInstances(Object(Closure))
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(388): Illuminate\\Container\\Container->bind(Object(Closure), NULL, true)
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(156): Illuminate\\Container\\Container->singleton(Object(Closure))
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(60): Maatwebsite\\Excel\\ExcelServiceProvider->bindClasses()
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(682): Maatwebsite\\Excel\\ExcelServiceProvider->register()
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Maatwebsite\\Excel\\ExcelServiceProvider))
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#7 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#8 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#9 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#10 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#11 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 {main}
+"} 
+[2024-05-28 17:57:27] local.ERROR: Illegal offset type in unset {"exception":"[object] (TypeError(code: 0): Illegal offset type in unset at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:1322)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(251): Illuminate\\Container\\Container->dropStaleInstances(Object(Closure))
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(388): Illuminate\\Container\\Container->bind(Object(Closure), NULL, true)
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(156): Illuminate\\Container\\Container->singleton(Object(Closure))
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(60): Maatwebsite\\Excel\\ExcelServiceProvider->bindClasses()
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(682): Maatwebsite\\Excel\\ExcelServiceProvider->register()
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Maatwebsite\\Excel\\ExcelServiceProvider))
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#7 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#8 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#9 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#10 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#11 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 {main}
+"} 
+[2024-05-28 17:57:50] local.ERROR: Illegal offset type in unset {"exception":"[object] (TypeError(code: 0): Illegal offset type in unset at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:1322)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(251): Illuminate\\Container\\Container->dropStaleInstances(Object(Closure))
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(388): Illuminate\\Container\\Container->bind(Object(Closure), NULL, true)
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(158): Illuminate\\Container\\Container->singleton(Object(Closure))
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(62): Maatwebsite\\Excel\\ExcelServiceProvider->bindClasses()
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(682): Maatwebsite\\Excel\\ExcelServiceProvider->register()
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Maatwebsite\\Excel\\ExcelServiceProvider))
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#7 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#8 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#9 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#10 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#11 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 {main}
+"} 
+[2024-05-28 17:58:27] local.ERROR: Illegal offset type in unset {"exception":"[object] (TypeError(code: 0): Illegal offset type in unset at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:1322)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(251): Illuminate\\Container\\Container->dropStaleInstances(Object(Closure))
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(388): Illuminate\\Container\\Container->bind(Object(Closure), NULL, true)
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(158): Illuminate\\Container\\Container->singleton(Object(Closure))
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(62): Maatwebsite\\Excel\\ExcelServiceProvider->bindClasses()
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(682): Maatwebsite\\Excel\\ExcelServiceProvider->register()
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Maatwebsite\\Excel\\ExcelServiceProvider))
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#7 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#8 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#9 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#10 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#11 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 {main}
+"} 
+[2024-05-28 17:58:27] local.ERROR: Illegal offset type in unset {"exception":"[object] (TypeError(code: 0): Illegal offset type in unset at C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:1322)
+[stacktrace]
+#0 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(251): Illuminate\\Container\\Container->dropStaleInstances(Object(Closure))
+#1 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(388): Illuminate\\Container\\Container->bind(Object(Closure), NULL, true)
+#2 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(158): Illuminate\\Container\\Container->singleton(Object(Closure))
+#3 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\ExcelServiceProvider.php(62): Maatwebsite\\Excel\\ExcelServiceProvider->bindClasses()
+#4 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(682): Maatwebsite\\Excel\\ExcelServiceProvider->register()
+#5 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Maatwebsite\\Excel\\ExcelServiceProvider))
+#6 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#7 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#8 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#9 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#10 C:\\Users\\Sahin\\Desktop\\InventoryMS-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#11 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 {main}
+"} 
