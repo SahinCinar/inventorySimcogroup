@@ -27,7 +27,7 @@
                 <table>
                     <tr>
                         <td class="title">
-                            <img src="https://www.sparksuite.com/images/logo.png" style="width:100%; max-width:300px;">
+                            <img src="" style="width:100%; max-width:300px;">
                         </td>
                     </tr>
                 </table>
@@ -76,12 +76,7 @@
             </tr>
         </table>
 
-    <!-- <table border="0" width="80%">
-        <tr align="right">
-            <td><img src="https://upload.wikimedia.org/wikipedia/en/f/f4/Timothy_Spall_Signature.png" width="100px" height="100px"></td>
-        </tr>
-
-    </table> -->
+        <br>
         <table border="0" width="80%">
             <tr align="right">
                 <td>Simco Group</td>

@@ -1,39 +1,41 @@
-@extends('layouts.master')
-
-
-@section('top')
+<?php $__env->startSection('top'); ?>
     <!-- DataTables -->
-    <link rel="stylesheet" href="{{ asset('assets/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css') }}">
-     
-    <!-- daterange picker -->
-    <link rel="stylesheet" href="{{ asset('assets/bower_components/bootstrap-daterangepicker/daterangepicker.css') }}">
-    <!-- bootstrap datepicker -->
-    <link rel="stylesheet" href="{{ asset('assets/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css') }}">
-@endsection
+    <link rel="stylesheet" href="<?php echo e(asset('assets/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css')); ?>">
 
-@section('content')
+    <!-- daterange picker -->
+    <link rel="stylesheet" href="<?php echo e(asset('assets/bower_components/bootstrap-daterangepicker/daterangepicker.css')); ?>">
+    <!-- bootstrap datepicker -->
+    <link rel="stylesheet" href="<?php echo e(asset('assets/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css')); ?>">
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('content'); ?>
     <div class="box box-success">
 
         <div class="box-header">
-            <h3 class="box-title">Outgoing List</h3>
+            <h3 class="box-title">Purchase Products List</h3>
+
+
         </div>
 
         <div class="box-header">
-            <a onclick="addForm()" class="btn btn-success" ><i class="fa fa-plus"></i> Add New Outgoing Product</a>
-            <a href="{{ route('exportPDF.productKeluarAll') }}" class="btn btn-danger"><i class="fa fa-file-pdf-o"></i> Export PDF</a>
-            <a href="{{ route('exportExcel.productKeluarAll') }}" class="btn btn-primary"><i class="fa fa-file-excel-o"></i> Export Excel</a>
+            <a onclick="addForm()" class="btn btn-success" ><i class="fa fa-plus"></i> Add New Purchase</a>
+            <a href="<?php echo e(route('exportPDF.productMasukAll')); ?>" class="btn btn-danger"><i class="fa fa-file-pdf-o"></i> Export PDF</a>
+            <a href="<?php echo e(route('exportExcel.productMasukAll')); ?>" class="btn btn-primary"><i class="fa fa-file-excel-o"></i> Export Excel</a>
         </div>
+
+
+
 
         <!-- /.box-header -->
         <div class="box-body">
-            <table id="products-out-table" class="table table-bordered table-hover table-striped">
+            <table id="products-in-table" class="table table-bordered table-hover table-striped">
                 <thead>
                 <tr>
                     <th>ID</th>
                     <th>Products</th>
-                    <th>Customer</th>
+                    <th>Supplier</th>
                     <th>Qty.</th>
-                    <th>Date</th>
+                    <th>In Date</th>
                     <th>Actions</th>
                 </tr>
                 </thead>
@@ -43,93 +45,75 @@
         <!-- /.box-body -->
     </div>
 
-
-
     <div class="box box-success col-md-6">
 
         <div class="box-header">
             <h3 class="box-title">Export Invoice</h3>
         </div>
 
-        {{--<div class="box-header">--}}
-            {{--<a onclick="addForm()" class="btn btn-primary" >Add Products Out</a>--}}
-            {{--<a href="{{ route('exportPDF.productKeluarAll') }}" class="btn btn-danger">Export PDF</a>--}}
-            {{--<a href="{{ route('exportExcel.productKeluarAll') }}" class="btn btn-success">Export Excel</a>--}}
-        {{--</div>--}}
+    
+    
+    
+    
+    
 
-        <!-- /.box-header -->
+    <!-- /.box-header -->
         <div class="box-body">
             <table id="invoice" class="table table-bordered table-hover table-striped">
                 <thead>
                 <tr>
                     <th>ID</th>
                     <th>Products</th>
-                    <th>Customer</th>
+                    <th>Supplier</th>
                     <th>Qty.</th>
-                    <th>Date</th>
+                    <th>In Date</th>
                     <th>Action</th>
                 </tr>
                 </thead>
 
-                @foreach($invoice_data as $i)
+                <?php $__currentLoopData = $invoice_data; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $i): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <tbody>
-                        <td>{{ $i->id }}</td>
-                        <td>{{ $i->product->nama }}</td>
-                        <td>{{ $i->customer->nama }}</td>
-                        <td>{{ $i->qty }}</td>
-                        <td>{{ $i->tanggal }}</td>
-                        <td>
-                            <a href="{{ route('exportPDF.productKeluar', [ 'id' => $i->id ]) }}" class="btn btn-sm btn-danger">Export Invoice</a>
-                        </td>
+                    <td><?php echo e($i->id); ?></td>
+                    <td><?php echo e($i->product->nama); ?></td>
+                    <td><?php echo e($i->supplier->nama); ?></td>
+                    <td><?php echo e($i->qty); ?></td>
+                    <td><?php echo e($i->tanggal); ?></td>
+                    <td>
+                        <a href="<?php echo e(route('exportPDF.productMasuk', [ 'id' => $i->id ])); ?>" class="btn btn-sm btn-danger">Export Invoice</a>
+                    </td>
                     </tbody>
-                @endforeach
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
             </table>
         </div>
         <!-- /.box-body -->
     </div>
 
-    @include('product_keluar.form')
+    <?php echo $__env->make('product_masuk.form', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('bot')
+<?php $__env->startSection('bot'); ?>
 
     <!-- DataTables -->
-    <script src=" {{ asset('assets/bower_components/datatables.net/js/jquery.dataTables.min.js') }} "></script>
-    <script src="{{ asset('assets/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js') }} "></script>
+    <script src=" <?php echo e(asset('assets/bower_components/datatables.net/js/jquery.dataTables.min.js')); ?> "></script>
+    <script src="<?php echo e(asset('assets/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js')); ?> "></script>
 
-     
+
     <!-- InputMask -->
-    <script src="{{ asset('assets/plugins/input-mask/jquery.inputmask.js') }}"></script>
-    <script src="{{ asset('assets/plugins/input-mask/jquery.inputmask.date.extensions.js') }}"></script>
-    <script src="{{ asset('assets/plugins/input-mask/jquery.inputmask.extensions.js') }}"></script>
+    <script src="<?php echo e(asset('assets/plugins/input-mask/jquery.inputmask.js')); ?>"></script>
+    <script src="<?php echo e(asset('assets/plugins/input-mask/jquery.inputmask.date.extensions.js')); ?>"></script>
+    <script src="<?php echo e(asset('assets/plugins/input-mask/jquery.inputmask.extensions.js')); ?>"></script>
     <!-- date-range-picker -->
-    <script src="{{ asset('assets/bower_components/moment/min/moment.min.js') }}"></script>
-    <script src="{{ asset('assets/bower_components/bootstrap-daterangepicker/daterangepicker.js') }}"></script>
+    <script src="<?php echo e(asset('assets/bower_components/moment/min/moment.min.js')); ?>"></script>
+    <script src="<?php echo e(asset('assets/bower_components/bootstrap-daterangepicker/daterangepicker.js')); ?>"></script>
     <!-- bootstrap datepicker -->
-    <script src="{{ asset('assets/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js') }}"></script>
+    <script src="<?php echo e(asset('assets/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js')); ?>"></script>
     <!-- bootstrap color picker -->
-    <script src="{{ asset('assets/bower_components/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js') }}"></script>
+    <script src="<?php echo e(asset('assets/bower_components/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js')); ?>"></script>
     <!-- bootstrap time picker -->
-    <script src="{{ asset('assets/plugins/timepicker/bootstrap-timepicker.min.js') }}"></script>
-    {{-- Validator --}}
-    <script src="{{ asset('assets/validator/validator.min.js') }}"></script>
-
-    <script>
-    $(function () {
-    // $('#items-table').DataTable()
-    $('#invoice').DataTable({
-    'paging'      : true,
-    'lengthChange': false,
-    'searching'   : false,
-    'ordering'    : true,
-    'info'        : true,
-    'autoWidth'   : false,
-    'processing'  : true,
-    // 'serverSide'  : true
-    })
-    })
-    </script>
+    <script src="<?php echo e(asset('assets/plugins/timepicker/bootstrap-timepicker.min.js')); ?>"></script>
+    
+    <script src="<?php echo e(asset('assets/validator/validator.min.js')); ?>"></script>
 
     <script>
         $(function () {
@@ -153,14 +137,14 @@
     </script>
 
     <script type="text/javascript">
-        var table = $('#products-out-table').DataTable({
+        var table = $('#products-in-table').DataTable({
             processing: true,
             serverSide: true,
-            ajax: "{{ route('api.productsOut') }}",
+            ajax: "<?php echo e(route('api.productsIn')); ?>",
             columns: [
                 {data: 'id', name: 'id'},
                 {data: 'products_name', name: 'products_name'},
-                {data: 'customer_name', name: 'customer_name'},
+                {data: 'supplier_name', name: 'supplier_name'},
                 {data: 'qty', name: 'qty'},
                 {data: 'tanggal', name: 'tanggal'},
                 {data: 'action', name: 'action', orderable: false, searchable: false}
@@ -172,7 +156,7 @@
             $('input[name=_method]').val('POST');
             $('#modal-form').modal('show');
             $('#modal-form form')[0].reset();
-            $('.modal-title').text('Add Outgoing Products');
+            $('.modal-title').text('Add New Purchase');
         }
 
         function editForm(id) {
@@ -180,16 +164,16 @@
             $('input[name=_method]').val('PATCH');
             $('#modal-form form')[0].reset();
             $.ajax({
-                url: "{{ url('productsOut') }}" + '/' + id + "/edit",
+                url: "<?php echo e(url('productsIn')); ?>" + '/' + id + "/edit",
                 type: "GET",
                 dataType: "JSON",
                 success: function(data) {
                     $('#modal-form').modal('show');
-                    $('.modal-title').text('Edit Products');
+                    $('.modal-title').text('Edit Products In');
 
                     $('#id').val(data.id);
                     $('#product_id').val(data.product_id);
-                    $('#customer_id').val(data.customer_id);
+                    $('#supplier_id').val(data.supplier_id);
                     $('#qty').val(data.qty);
                     $('#tanggal').val(data.tanggal);
                 },
@@ -211,7 +195,7 @@
                 confirmButtonText: 'Yes, delete it!'
             }).then(function () {
                 $.ajax({
-                    url : "{{ url('productsOut') }}" + '/' + id,
+                    url : "<?php echo e(url('productsIn')); ?>" + '/' + id,
                     type : "POST",
                     data : {'_method' : 'DELETE', '_token' : csrf_token},
                     success : function(data) {
@@ -239,12 +223,13 @@
             $('#modal-form form').validator().on('submit', function (e) {
                 if (!e.isDefaultPrevented()){
                     var id = $('#id').val();
-                    if (save_method == 'add') url = "{{ url('productsOut') }}";
-                    else url = "{{ url('productsOut') . '/' }}" + id;
+                    if (save_method == 'add') url = "<?php echo e(url('productsIn')); ?>";
+                    else url = "<?php echo e(url('productsIn') . '/'); ?>" + id;
 
                     $.ajax({
                         url : url,
                         type : "POST",
+                        //hanya untuk input data tanpa dokumen
 //                      data : $('#modal-form form').serialize(),
                         data: new FormData($("#modal-form form")[0]),
                         contentType: false,
@@ -274,4 +259,6 @@
         });
     </script>
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\Sahin\Desktop\SimcoGroup-Inventory\inventorySimcogroup\resources\views/product_masuk/index.blade.php ENDPATH**/ ?>

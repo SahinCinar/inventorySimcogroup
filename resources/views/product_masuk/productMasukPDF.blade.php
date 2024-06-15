@@ -20,19 +20,6 @@
 
 <body>
 <div class="invoice-box">
-    <!-- <table cellpadding="0" cellspacing="0">
-        <tr class="top">
-            <td colspan="2">
-                <table>
-                    <tr>
-                        <td class="title">
-                            <img src="https://www.sparksuite.com/images/logo.png" style="width:100%; max-width:300px;">
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table> -->
 
 
     <table border="0" id="table-data" width="100%">
@@ -75,12 +62,7 @@
         </tr>
     </table>
 
-    <!-- <table border="0" width="80%">
-        <tr align="right">
-            <td><img src="https://upload.wikimedia.org/wikipedia/en/f/f4/Timothy_Spall_Signature.png" width="100px" height="100px"></td>
-        </tr>
-
-    </table> -->
+</div>
     <table border="0" width="80%">
         <tr align="right">
             <td>Simco Group</td>

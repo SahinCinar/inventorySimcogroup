@@ -24,5 +24,6 @@ https://inventory-simcogroup-2-hv4i9klfs-sahins-projects-47256dd2.vercel.app/
 https://github.com/SahinCinar/inventorySimcogroup
 https://inventorysimcogroup.onrender.com/
 Het online zetten van het project is niet gelukt, Ngrok zal worden gebruikt!
+ngrok http http://localhost:8000
 Email:admin@hotmail.com
 Wachtwoord:Simcogroup
