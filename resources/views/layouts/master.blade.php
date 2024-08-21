@@ -7,9 +7,9 @@
     <title>SimcoGroup | Dashboard</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="stylesheet" href="{{ asset('assets/bower_components/bootstrap/dist/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/bower_components/font-awesome/css/font-awesome.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/bower_components/Ionicons/css/ionicons.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/components/bootstrap/dist/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/components/font-awesome/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/components/Ionicons/css/ionicons.min.css') }}">
     <script src="{{ asset('assets/sweetalert2/sweetalert2.min.js') }}"></script>
     <link href="{{ asset('assets/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/dist/css/SimcoGroup.min.css') }}">
@@ -23,7 +23,7 @@
     <!-- Main Header -->
     <header class="main-header">
         <!-- Logo -->
-        <a href="index2.html" class="logo">
+        <a href="" class="logo">
             <span class="logo-mini"><b>SG</b></span>
             <span class="logo-lg"><b>Admin</b> System</span>
         </a>
@@ -91,8 +91,8 @@
 </div>
 
 <!-- REQUIRED JS SCRIPTS -->
-<script src="{{ asset('assets/bower_components/jquery/dist/jquery.min.js') }}"></script>
-<script src="{{ asset('assets/bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('assets/components/jquery/dist/jquery.min.js') }}"></script>
+<script src="{{ asset('assets/components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('assets/dist/js/SimcoGroup.min.js') }}"></script>
 @yield('bot')
 </body>

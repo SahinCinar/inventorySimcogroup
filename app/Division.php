@@ -11,7 +11,7 @@ class Division extends Model
      *
      * @var string
      */
-    protected $table = 'division';
+    protected $table = 'divisions';
 
     /**
      * The attributes that are mass assignable.
@@ -20,10 +20,5 @@ class Division extends Model
      */
     protected $fillable = ['name', 'code'];
 
-    /**
-     * The attributes that aren't mass assignable.
-     *
-     * @var array
-     */
-    protected $guarded = [];
+    // Remove $guarded since it's redundant with $fillable
 }

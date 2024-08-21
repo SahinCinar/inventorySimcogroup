@@ -11,8 +11,11 @@ class CreateEmployeesTable extends Migration
      *
      * @return void
      */
+    
     public function up()
     {
+        
+
         Schema::create('employees', function (Blueprint $table) {
             $table->increments('id', true);
             $table->string('lastname', 60);
@@ -26,13 +29,12 @@ class CreateEmployeesTable extends Migration
             $table->foreign('state_id')->references('id')->on('state');
             $table->foreign('country_id')->references('id')->on('country');
             $table->char('zip', 10);
-            $table->integer('age')->unsigned();
             $table->date('birthdate');
             $table->date('date_hired');
             $table->integer('department_id')->unsigned();
             $table->integer('division_id')->unsigned();
             // $table->integer('company_id')->unsigned();
-            $table->foreign('department_id')->references('id')->on('department');
+            $table->foreignId('department_id')->constrained('department');
             $table->foreign('division_id')->references('id')->on('division');
             // $table->foreign('company_id')->references('id')->on('company');
             $table->string('picture', 60);

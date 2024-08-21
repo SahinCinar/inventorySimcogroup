@@ -74,6 +74,16 @@ class EmployeeManagementController extends Controller
      */
     public function store(Request $request)
     {
+        $request->validate([
+        'department_id' => 'required|exists:departments,id', // Ensure department_id exists in the departments table
+        'division_id' => 'required|exists:divisions,id', // Ensure division_id exists in the divisions table
+        'country_id' => 'required|exists:country,id', // Ensure country_id exists in the countries table
+        'state_id' => 'required|exists:state,id', // Ensure state_id exists in the states table
+        'city_id' => 'required|exists:city,id', // Ensure city_id exists in the cities table
+        'picture' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048', // Ensure picture is an image file
+        'birthdate' => 'required|date', // Ensure birthdate is a date
+        'date_join' => 'required|date', // Ensure date_join is a date
+    ]);
         // $input = $request->all();
         // dd($input); die;
         $this->validateInput($request);
@@ -89,7 +99,17 @@ class EmployeeManagementController extends Controller
 
         return redirect()->intended('/employee-management')->with('success','Employee Created Successfully!');
     }
+    public function getStates($country_id)
+{
+    $states = State::where('country_id', $country_id)->get();
+    return response()->json($states);
+}
 
+public function getCities($state_id)
+{
+    $cities = City::where('state_id', $state_id)->get();
+    return response()->json($cities);
+}
     /**
      * Display the specified resource.
      *
@@ -220,7 +240,6 @@ class EmployeeManagementController extends Controller
             'address' => 'required|max:120',
             'country_id' => 'required',
             'zip' => 'required|max:10',
-            // 'age' => 'required',
             'birthdate' => 'required',
             'date_join' => 'required',
             'department_id' => 'required',

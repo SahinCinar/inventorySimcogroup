@@ -1,6 +1,8 @@
 <?php
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -118,8 +120,20 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::resource('user', 'UserController');
     Route::get('/apiUser', 'UserController@apiUsers')->name('api.users');
+
+    
 });
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
+//     Route::get('/dashboard', [AdminController::class, 'index'])->name('dashboard');
+//     Route::get('/users', [AdminController::class, 'users'])->name('users.index');
+//     Route::get('/users/create', [AdminController::class, 'createUser'])->name('users.create');
+//     Route::post('/users', [AdminController::class, 'storeUser'])->name('users.store');
+//     Route::get('/users/{id}/edit', [AdminController::class, 'editUser'])->name('users.edit');
+//     Route::put('/users/{id}', [AdminController::class, 'updateUser'])->name('users.update');
+//     Route::delete('/users/{id}', [AdminController::class, 'destroyUser'])->name('users.destroy');
+//     Route::get('/employees', [AdminController::class, 'employees'])->name('employees.index');
+// });

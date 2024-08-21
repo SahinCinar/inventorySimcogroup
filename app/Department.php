@@ -11,12 +11,12 @@ class Department extends Model
      *
      * @var string
      */
-    protected $table = 'department';
-    
+    protected $table = 'departments'; 
+
     /**
-    * The attributes that aren't mass assignable.
-    *
-    * @var array
-    */
-    protected $guarded = [];
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = ['name', 'code'];  
 }
